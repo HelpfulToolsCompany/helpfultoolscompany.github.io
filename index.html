@@ -59,17 +59,13 @@
         .product a:hover {
             text-decoration: underline;
         }
-        .footer {
-            color: #666;
+        .product-links {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .product-links a {
             font-size: 0.9rem;
-        }
-        .footer a {
-            color: #888;
-            text-decoration: none;
-            margin: 0 12px;
-        }
-        .footer a:hover {
-            color: #a855f7;
         }
         .contact {
             margin-top: 2rem;
@@ -89,13 +85,12 @@
             <div class="product">
                 <h2>LoreVault</h2>
                 <p>Long-term memory for your roleplay conversations. Never lose track of characters, relationships, or story events again.</p>
-                <a href="https://github.com/HelpfulToolsCompany/lorevault-extension">GitHub</a>
+                <div class="product-links">
+                    <a href="https://github.com/HelpfulToolsCompany/lorevault-extension">GitHub</a>
+                    <a href="/lorevault/terms.html">Terms of Service</a>
+                    <a href="/lorevault/privacy.html">Privacy Policy</a>
+                </div>
             </div>
-        </div>
-
-        <div class="footer">
-            <a href="/terms.html">Terms of Service</a>
-            <a href="/privacy.html">Privacy Policy</a>
         </div>
 
         <div class="contact">
